@@ -13,17 +13,17 @@
 
 import time
 start = time.time()
+
 i = 2520 # start at 2520, since we know it's divisible by all 1 through 10
 list = range(19,10,-1) # based on above logic, go backwards since it eliminates quicker
                        # we increment by 20, so don't need to check 20.
-k = 0
-while k != 1:
+while False:
     if all(i % x == 0 for x in list):
-        print i
-        k += 1
-        break
+        True
     else:
         i += 20 
+print i
+
 end = time.time()
 print end-start
 
