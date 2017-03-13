@@ -7,7 +7,7 @@ b = 1 # initialize second term of fibonacci
 c = 0 # initialize our c term
 length = 0 # initialize sum counter
 counter = 2
-while length < 1000: # until we hit 4 million
+while length < 1000: # until we reach a number with over 1000 digits
     c = a + b # let c be the sum a+b
     a = b # set a as b 
     b = c #  set b as c (by doing this, we are moving along the sequence)
