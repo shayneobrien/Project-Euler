@@ -10,4 +10,3 @@ def primefind(n):
     print n
     
 primefind(600851475143)
-primefind(100)
