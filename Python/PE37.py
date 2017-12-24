@@ -10,7 +10,7 @@ def is_prime_number(x):
     return True
 
 truncatable_primes = []
-current_number = 739395
+current_number = 8
 while len(truncatable_primes) < 11:
     if not is_prime_number(current_number):
         current_number += 1
